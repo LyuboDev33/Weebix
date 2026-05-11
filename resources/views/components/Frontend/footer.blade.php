@@ -10,40 +10,31 @@
                         <div class="col-lg-6 col-md-12">
                             <div class="footer-about">
                                 <figure>
-                                    <img src="/images/footer-logo.svg" alt="">
+                                    <img src="/images/footer-logo.svg" alt="Лого">
                                 </figure>
-                                <p>Дигитална агенция за уеб дизайн, онлайн магазини и маркетинг решения</p>
+                                <p>Дигитална агенция за уеб дизайн, онлайн магазини и маркетинг решения.</p>
+
                                 <ul>
-                                    <li><a href="mailto:info@domainname.com">info@domainname.com</a></li>
-                                    <li><a href="tel:+0123456789">(+0) 123 456 789</a></li>
+                                    <li><a href="mailto:info@weebix.com">info@weebix.com</a></li>
+                                    <li><a href="tel:+0894938614">0894 938 614</a></li>
                                 </ul>
                             </div>
                         </div>
 
                         <div class="col-lg-2 col-md-4">
-                            <div class="footer-links">
+                            <div class="footer-links social-icons">
                                 <h2>Страници</h2>
                                 <ul>
-                                    <li><a href="#">Начало</a></li>
-                                    <li><a href="#">За нас</a></li>
-                                    <li><a href="#">Услуги</a></li>
-                                    <li><a href="#">Блог</a></li>
-                                    <li><a href="#">Контакти</a></li>
+                                    <li><a href="/about">За нас</a></li>
+                                    <li><a href="/services">Услуги</a></li>
+                                    <li><a href="/contact">Контакти</a></li>
+                                    <li> <a href="#">
+                                            <i class="fa-brands fa-facebook-f"></i>
+                                        </a></li>
                                 </ul>
                             </div>
                         </div>
 
-                        <div class="col-lg-2 col-md-4">
-                            <div class="footer-links">
-                                <h2>Социални мрежи</h2>
-                                <ul>
-                                    <li><a href="#">Instagram</a></li>
-                                    <li><a href="#">Facebook</a></li>
-                                    <li><a href="#">Twitter</a></li>
-                                    <li><a href="#">LinkedIn</a></li>
-                                </ul>
-                            </div>
-                        </div>
 
                         <div class="col-lg-2 col-md-4">
                             <div class="footer-links">
@@ -52,8 +43,7 @@
                                     <li><a href="#">Уеб разработка</a></li>
                                     <li><a href="#">Дигитален маркетинг</a></li>
                                     <li><a href="#">Онлайн магазини</a></li>
-                                    <li><a href="#">Мобилни приложения</a></li>
-                                    <li><a href="#">Техническа поддръжка</a></li>
+                                    <li><a href="#">AI Видеа и обработка</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -66,16 +56,15 @@
 
                         <div class="col-lg-6">
                             <div class="footer-copyright-text">
-                                <p>© 2024 Weebix. Всички права запазени.</p>
+                                <p>© 2026 Weebix. Всички права запазени.</p>
                             </div>
                         </div>
 
                         <div class="col-lg-6">
                             <div class="footer-policy-links">
                                 <ul>
-                                    <li><a href="#">Политика за поверителност</a></li>
-                                    <li><a href="#">Общи условия</a></li>
-                                    <li class="highlighted"><a href="#top">Към началото</a></li>
+                                    <li><a href="/legal/politika-za-poveritelnost">Политика за поверителност</a></li>
+                                    <li><a href="/legal/obshti-usloviya ">Общи условия</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -89,18 +78,18 @@
 </footer>
 <!-- Footer End -->
 
-    <!-- Jquery Library File -->
-    <script src="/js/jquery-3.7.1.min.js"></script>
-    <!-- Bootstrap js file -->
-    <script src="/js/bootstrap.min.js"></script>
-    <!-- Validator js file -->
-    <script src="/js/validator.min.js"></script>
-    <!-- SlickNav js file -->
-    <script src="/js/jquery.slicknav.js"></script>
-    <!-- Swiper js file -->
-    <script src="/js/swiper-bundle.min.js"></script>
-    <!-- Counter js file -->
-    {{-- <script src="/js/jquery.waypoints.min.js"></script>
+<!-- Jquery Library File -->
+<script src="/js/jquery-3.7.1.min.js"></script>
+<!-- Bootstrap js file -->
+<script src="/js/bootstrap.min.js"></script>
+<!-- Validator js file -->
+<script src="/js/validator.min.js"></script>
+<!-- SlickNav js file -->
+<script src="/js/jquery.slicknav.js"></script>
+<!-- Swiper js file -->
+<script src="/js/swiper-bundle.min.js"></script>
+<!-- Counter js file -->
+{{-- <script src="/js/jquery.waypoints.min.js"></script>
     <script src="/js/jquery.counterup.min.js"></script>
     <!-- Isotop js file -->
     <script src="/js/isotope.min.js"></script>
@@ -110,12 +99,13 @@
     <script src="/js/SmoothScroll.js"></script>
     <!-- MagicCursor js file -->
     <script src="/js/gsap.min.js"></script> --}}
-    {{-- <script src="/js/magiccursor.js"></script> --}}
-    <!-- Text Effect js file -->
-    {{-- <script src="/js/SplitText.js"></script>
+{{-- <script src="/js/magiccursor.js"></script> --}}
+<!-- Text Effect js file -->
+{{-- <script src="/js/SplitText.js"></script>
     <script src="/js/ScrollTrigger.min.js"></script> --}}
-    <!-- Wow js file -->
-    <script src="/js/wow.js"></script>
-    <!-- Main Custom js file -->
-    <script src="/js/function.js"></script>
-
+<!-- Wow js file -->
+<script src="/js/wow.js"></script>
+<!-- Main Custom js file -->
+<script src="/js/function.js"></script>
+<!-- Cookies js file -->
+<script src="/js/cookies.js"></script>

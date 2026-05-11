@@ -12,7 +12,7 @@
     <!-- Favicon Icon -->
     <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png?v=<?php echo time(); ?>">
     <!-- Google Fonts Css-->
-   
+
     <!-- Bootstrap Css -->
     <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <!-- SlickNav Css -->
@@ -25,7 +25,9 @@
     <link href="/css/animate.css" rel="stylesheet">
     <!-- Magnific Popup Core Css File -->
     <link rel="stylesheet" href="/css/magnific-popup.css">
-    <!-- Main Custom Css -->
+    <!-- Main Css -->
+    <link href="/css/main.css" rel="stylesheet" media="screen">
+    <!-- Custom Css -->
     <link href="/css/custom.css" rel="stylesheet" media="screen">
 
     @yield('SEO')
@@ -34,14 +36,14 @@
 
 <body class="tt-magic-cursor" style="">
 
-    <!-- Preloader Start -->
+    {{-- <!-- Preloader Start -->
     <div class="preloader">
         <div class="loading-container">
             <div class="loading"></div>
             <div id="loading-icon"><img src="/images/loader.svg" alt=""></div>
         </div>
     </div>
-    <!-- Preloader End -->
+    <!-- Preloader End --> --}}
 
     <!-- Magic Cursor Start -->
     <div id="magic-cursor" style="opacity: 0; visibility: hidden;">
@@ -50,6 +52,20 @@
         </div>
     </div>
     <!-- Magic Cursor End -->
+
+
+    <div class="cookies__modal shadow wrapper">
+        <img class="cookies" src="/images/cookie.webp" alt="Бисквитки">
+        <div>
+            <p><strong>W<span class="text-theme">ee</span>bix</strong> използва бисквитки за по-добро и персонализирано потребителско изживяване.</p>
+
+            <div class="d-flex gap-4 justify-content-center mt-30">
+                <button id="acceptBtn">Добре, разбрах</button>
+                <button id="declineBtn">Отхвърли</button>
+            </div>
+        </div>
+    </div>
+
 
     @include('components.Frontend.header')
 
@@ -60,7 +76,6 @@
 
 
     @include('components.Frontend.footer')
-
 
 
 

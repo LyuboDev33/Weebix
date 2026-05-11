@@ -5,7 +5,7 @@
             <div class="container">
 
                 <!-- Logo Start -->
-                <a class="navbar-brand" href="./">
+                <a class="navbar-brand" href="/">
                     <img src="/images/logo.svg" alt="Logo">
                 </a>
                 <!-- Logo End -->
@@ -24,19 +24,32 @@
                             </li> --}}
                             <li class="nav-item"><a class="nav-link" href="/">Начало</a></li>
 
-                            <li class="nav-item"><a class="nav-link" href="about.html">за нас</a></li>
-                            <li class="nav-item"><a class="nav-link" href="services.html">услуги</a></li>
-                            <li class="nav-item"><a class="nav-link" href="portfolio.html">портфолио</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about">за нас</a></li>
+                            <li class="nav-item submenu">
+                                <a class="nav-link" href="/services">Услуги</a>
+                                <ul>
+                                    <li class="nav-item d-md-none"><a class="nav-link" href="/services">Всички услуги</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="/service/web-development">Изработка на уебсайт</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="/service/digital-marketing">Дигитален маркетинг</a>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="/service/design">Графичен дизайн</a>
+                                    </li>
+                                        <li class="nav-item"><a class="nav-link" href="/service/digital-marketing">AI Видеа и Обработка</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="/portfolio">портфолио</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/contact">Контакти</a></li>
 
                             <li class="nav-item highlighted-menu">
-                                <a class="nav-link" href="contact-us.html">безплатна консултация</a>
+                                @include('components.Frontend.calendar')
                             </li>
                         </ul>
                     </div>
 
                     <!-- Let's Start Button Start -->
                     <div class="header-btn d-inline-flex">
-                        <a href="contact-us.html" class="btn-default">безплатна консултация</a>
+                        @include('components.Frontend.calendar')
                     </div>
                     <!-- Let's Start Button End -->
                 </div>

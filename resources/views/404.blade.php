@@ -1,5 +1,9 @@
 <x-layouts.front-end>
 
+    @section('SEO')
+      <title>Weebix | Страница 404 </title>
+    @endsection
+
 <div class="error-page">
     <div class="container">
         <div class="row">
