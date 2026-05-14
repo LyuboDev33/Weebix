@@ -79,33 +79,18 @@
 <!-- Footer End -->
 
 <!-- Jquery Library File -->
-<script src="/js/jquery-3.7.1.min.js"></script>
+<script src="/js/jquery-3.7.1.min.js?v=<?php echo time(); ?>"></script>
 <!-- Bootstrap js file -->
-<script src="/js/bootstrap.min.js"></script>
+<script src="/js/bootstrap.min.js?v=<?php echo time(); ?>"></script>
 <!-- Validator js file -->
-<script src="/js/validator.min.js"></script>
+<script src="/js/validator.min.js?v=<?php echo time(); ?>"></script>
 <!-- SlickNav js file -->
-<script src="/js/jquery.slicknav.js"></script>
+<script src="/js/jquery.slicknav.js?v=<?php echo time(); ?>"></script>
 <!-- Swiper js file -->
-<script src="/js/swiper-bundle.min.js"></script>
-<!-- Counter js file -->
-{{-- <script src="/js/jquery.waypoints.min.js"></script>
-    <script src="/js/jquery.counterup.min.js"></script>
-    <!-- Isotop js file -->
-    <script src="/js/isotope.min.js"></script>
-    <!-- Magnific js file -->
-    <script src="/js/jquery.magnific-popup.min.js"></script>
-    <!-- SmoothScroll -->
-    <script src="/js/SmoothScroll.js"></script>
-    <!-- MagicCursor js file -->
-    <script src="/js/gsap.min.js"></script> --}}
-{{-- <script src="/js/magiccursor.js"></script> --}}
-<!-- Text Effect js file -->
-{{-- <script src="/js/SplitText.js"></script>
-    <script src="/js/ScrollTrigger.min.js"></script> --}}
+<script src="/js/swiper-bundle.min.js?v=<?php echo time(); ?>"></script>
 <!-- Wow js file -->
-<script src="/js/wow.js"></script>
+<script src="/js/wow.js?v=<?php echo time(); ?>"></script>
 <!-- Main Custom js file -->
-<script src="/js/function.js"></script>
+<script src="/js/function.js?v=<?php echo time(); ?>"></script>
 <!-- Cookies js file -->
-<script src="/js/cookies.js"></script>
+<script src="/js/cookies.js?v=<?php echo time(); ?>"></script>

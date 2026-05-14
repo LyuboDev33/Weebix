@@ -11,45 +11,42 @@
 
     <!-- Favicon Icon -->
     <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png?v=<?php echo time(); ?>">
-    <!-- Google Fonts Css-->
-
     <!-- Bootstrap Css -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="/css/bootstrap.min.css?v=<?php echo time(); ?>" rel="stylesheet" media="screen">
     <!-- SlickNav Css -->
-    <link href="/css/slicknav.min.css" rel="stylesheet">
+    <link href="/css/slicknav.min.css?v=<?php echo time(); ?>" rel="stylesheet">
     <!-- Swiper Css -->
-    <link rel="stylesheet" href="/css/swiper-bundle.min.css">
-    <!-- Font Awesome Icon Css-->
-    <link href="/css/all.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css?v=<?php echo time(); ?>">
+    <!-- Font Awesome Icon Css -->
+    <link href="/css/all.css?v=<?php echo time(); ?>" rel="stylesheet" media="screen">
     <!-- Animated Css -->
-    <link href="/css/animate.css" rel="stylesheet">
+    <link href="/css/animate.css?v=<?php echo time(); ?>" rel="stylesheet">
     <!-- Magnific Popup Core Css File -->
-    <link rel="stylesheet" href="/css/magnific-popup.css">
+    <link rel="stylesheet" href="/css/magnific-popup.css?v=<?php echo time(); ?>">
     <!-- Main Css -->
-    <link href="/css/main.css" rel="stylesheet" media="screen">
+    <link href="/css/main.css?v=<?php echo time(); ?>" rel="stylesheet" media="screen">
     <!-- Custom Css -->
-    <link href="/css/custom.css" rel="stylesheet" media="screen">
-
+    <link href="/css/custom.css?v=<?php echo time(); ?>" rel="stylesheet" media="screen">
 
     <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.23/dist/lenis.css">
     <script src="https://unpkg.com/lenis@1.3.23/dist/lenis.min.js"></script>
 
- <script>
-    const lenis = new Lenis({
-        duration: 1,
-        smoothWheel: true,
-        wheelMultiplier: 0.8,
-        touchMultiplier: 0.8,
-        lerp: 0.5
-    });
+    <script>
+        const lenis = new Lenis({
+            duration: 1,
+            smoothWheel: true,
+            wheelMultiplier: 0.8,
+            touchMultiplier: 0.8,
+            lerp: 0.5
+        });
 
-    function raf(time) {
-        lenis.raf(time);
+        function raf(time) {
+            lenis.raf(time);
+            requestAnimationFrame(raf);
+        }
+
         requestAnimationFrame(raf);
-    }
-
-    requestAnimationFrame(raf);
-</script>
+    </script>
 
 
     @yield('SEO')
