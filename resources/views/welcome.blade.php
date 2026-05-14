@@ -45,8 +45,9 @@
                         <!-- Section Title Start -->
                         <div class="section-title">
                             <h1 class="text-anime-style-3">
-                                Искате уебсайт, но процесът ви изглежда <br>
-                                <span>твърде сложен и неясен?</span>
+                                {{-- Искате уебсайт, но процесът ви изглежда <br>
+                                <span>твърде сложен и неясен?</span> --}}
+                                test
                             </h1>
                         </div>
                         <!-- Section Title End -->
