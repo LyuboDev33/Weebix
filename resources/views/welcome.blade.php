@@ -474,7 +474,7 @@
 
     <!-- Exclusive Partners Section Start -->
     <!-- Clients Testimonials Section Start -->
-    {{-- <section class="clients-testimonials about-testimonials">
+    <section class="clients-testimonials about-testimonials">
         <div class="container">
 
             <div class="row section-row align-items-center">
@@ -604,7 +604,7 @@
             </div>
 
         </div>
-    </section> --}}
+    </section>
     <!-- Clients Testimonials Section End -->
 
 
