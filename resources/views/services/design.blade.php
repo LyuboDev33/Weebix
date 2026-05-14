@@ -48,7 +48,7 @@
                         {{-- Service Featured Image Start --}}
                         <div class="service-featured-image">
                             <figure class="image-anime">
-                                <img class="web-development" src="/images/service-feature-img.jpg"
+                                <img class="web-development" src="/images/services/design.jpg"
                                     alt="Графичен дизайн от Weebix">
                             </figure>
                         </div>

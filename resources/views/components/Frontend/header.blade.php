@@ -24,7 +24,7 @@
                             </li> --}}
                             <li class="nav-item"><a class="nav-link" href="/">Начало</a></li>
 
-                            <li class="nav-item"><a class="nav-link" href="about">за нас</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/about">за нас</a></li>
                             <li class="nav-item submenu">
                                 <a class="nav-link" href="/services">Услуги</a>
                                 <ul>
@@ -34,7 +34,7 @@
                                     </li>
                                     <li class="nav-item"><a class="nav-link" href="/service/design">Графичен дизайн</a>
                                     </li>
-                                        <li class="nav-item"><a class="nav-link" href="/service/digital-marketing">AI Видеа и Обработка</a>
+                                        <li class="nav-item"><a class="nav-link" href="/service/videos">AI Видеа и Обработка</a>
                                     </li>
                                 </ul>
                             </li>

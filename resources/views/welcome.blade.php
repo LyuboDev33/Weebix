@@ -59,7 +59,7 @@
                             </p>
                             <hr class="mt-0 mb-2 text-black">
                             <p>
-                                Ние от <strong>W<span class="text-theme">ee</span>bix</strong> ще ви осигурим ясен
+                                Ние от дигитална агенция <strong>W<span class="text-theme">ee</span>bix</strong> ще ви осигурим ясен
                                 процес и експерт, който ви води от идеята до напълно завършен и работещ сайт.
                             </p>
 

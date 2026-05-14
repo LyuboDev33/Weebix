@@ -30,6 +30,28 @@
     <!-- Custom Css -->
     <link href="/css/custom.css" rel="stylesheet" media="screen">
 
+
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.23/dist/lenis.css">
+    <script src="https://unpkg.com/lenis@1.3.23/dist/lenis.min.js"></script>
+
+ <script>
+    const lenis = new Lenis({
+        duration: 1,
+        smoothWheel: true,
+        wheelMultiplier: 0.8,
+        touchMultiplier: 0.8,
+        lerp: 0.5
+    });
+
+    function raf(time) {
+        lenis.raf(time);
+        requestAnimationFrame(raf);
+    }
+
+    requestAnimationFrame(raf);
+</script>
+
+
     @yield('SEO')
 
 </head>
@@ -57,7 +79,8 @@
     <div class="cookies__modal shadow wrapper">
         <img class="cookies" src="/images/cookie.webp" alt="Бисквитки">
         <div>
-            <p><strong>W<span class="text-theme">ee</span>bix</strong> използва бисквитки за по-добро и персонализирано потребителско изживяване.</p>
+            <p><strong>W<span class="text-theme">ee</span>bix</strong> използва бисквитки за по-добро и персонализирано
+                потребителско изживяване.</p>
 
             <div class="d-flex gap-4 justify-content-center mt-30">
                 <button id="acceptBtn">Добре, разбрах</button>

@@ -166,8 +166,7 @@
                 <div class="col-lg-12">
                     <!-- Section Title Start -->
                     <div class="section-title">
-                        <h3 class="wow fadeInUp">кратко за компанията</h3>
-                        <h2 class="text-anime-style-3">Нещата, които имат значение</h2>
+                        <h2 class="text-anime-style-3">Малко повече за нашата работа</h2>
                     </div>
                     <!-- Section Title End -->
                 </div>
