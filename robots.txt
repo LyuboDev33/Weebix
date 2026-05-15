@@ -1,0 +1,10 @@
+User-agent: *
+Disallow:
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Facebot
+Allow: /
+
+Sitemap: https://weebix.bg/sitemap.xml
