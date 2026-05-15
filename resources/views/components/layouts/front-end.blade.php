@@ -8,8 +8,8 @@
 
     <meta name="google-site-verification" content="Q5aRku2wsSz-AepvwPrdh69Cg_tcA7Hzafa2dgIl0lc" />
 
-    <meta name="twitter:image" content="{{ asset('images/seo.png') }}">
-    <meta property="og:image" content="{{ asset('images/seo.png') }}">
+    <meta name="twitter:image" content="https://weebix.bg/images/seo.png">
+    <meta property="og:image" content="https://weebix.bg/images/seo.png">
 
 
     <!-- Favicon Icon -->
