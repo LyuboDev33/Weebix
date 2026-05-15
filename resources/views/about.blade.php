@@ -1,39 +1,31 @@
 <x-layouts.front-end>
 
-    @section('SEO')
-        <title>За нас | Weebix - Изработка на уебсайтове, онлайн магазини и дигитални решения</title>
+   @section('SEO')
 
-        <meta name="description"
-            content="Weebix разработва модерни фирмени сайтове, онлайн магазини и индивидуални уеб решения с фокус върху дизайн, функционалност и реални бизнес резултати.">
+    <title>
+        За нас | Weebix - Уеб разработка, онлайн магазини и custom решения
+    </title>
 
-        <meta name="keywords"
-            content="Weebix, изработка на сайт, фирмен сайт, онлайн магазин, уеб дизайн, SEO оптимизация, дигитална агенция, Laravel, WordPress, България">
+    <meta name="description" content="Научете повече за Weebix – екип за уеб разработка, онлайн магазини и custom системи. Създаваме модерни и бързи уеб решения с фокус върху качество, SEO и реални бизнес резултати.">
+    <meta name="keywords" content="Weebix, за нас, уеб разработка, фирмени сайтове, онлайн магазини, custom системи, SEO оптимизация, дигитална агенция, България">
+    <meta name="author" content="Weebix">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="{{ url()->current() }}">
 
-        <meta name="author" content="Weebix">
-        <meta name="robots" content="index, follow">
-        <link rel="canonical" href="{{ url()->current() }}">
+    {{-- Open Graph --}}
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="bg_BG">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:title" content="За нас | Weebix - Уеб разработка и дигитални решения">
+    <meta property="og:description" content="Създаваме модерни уебсайтове, онлайн магазини и custom решения с внимание към детайла, стабилността и дългосрочната поддръжка.">
+    <meta property="og:site_name" content="Weebix">
 
-        {{-- Open Graph --}}
-        <meta property="og:type" content="website">
-        <meta property="og:locale" content="bg_BG">
-        <meta property="og:url" content="{{ url()->current() }}">
-        <meta property="og:title" content="Weebix - Изработка на уебсайтове, онлайн магазини и дигитални решения">
+    {{-- Twitter / X --}}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="За нас | Weebix">
+    <meta name="twitter:description" content="Weebix разработва модерни уеб решения, които комбинират добра визия, функционалност и реални резултати за бизнеса.">
 
-        <meta property="og:description"
-            content="Създаваме модерни уеб решения, които комбинират страхотен дизайн, добра структура и функционалност с реални резултати за бизнеса.">
-
-        <meta property="og:image" content="{{ asset('images/og-cover.jpg') }}">
-        <meta property="og:site_name" content="Weebix">
-
-        {{-- Twitter --}}
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="Weebix - Изработка на уебсайтове и онлайн магазини">
-
-        <meta name="twitter:description"
-            content="Модерни фирмени сайтове, онлайн магазини и дигитални решения за бизнеси, които искат професионално онлайн присъствие.">
-
-        <meta name="twitter:image" content="{{ asset('images/og-cover.jpg') }}">
-    @endsection
+@endsection
 
 
     <!-- Hero Section Start -->

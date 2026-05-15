@@ -1,35 +1,34 @@
 <x-layouts.front-end>
 
-    @section('SEO')
-        <title>Уеб дизайн, SEO и дигитален маркетинг за вашия бизнес | [Име на компанията]</title>
+@section('SEO')
 
-        <meta name="description"
-            content="Изграждаме модерни уебсайтове, оптимизираме за Google и развиваме онлайн присъствието на бизнеса ви. 100+ доволни партньори. Получете безплатна консултация днес.">
-        <meta name="keywords"
-            content="уеб дизайн, изработка на сайт, SEO оптимизация, дигитален маркетинг, разработка на уебсайт, мобилни приложения, онлайн магазин, България">
-        <meta name="author" content="[Име на компанията]">
-        <meta name="robots" content="index, follow">
-        <link rel="canonical" href="{{ url()->current() }}">
+    <title>
+        Уеб разработка, SEO и дигитален маркетинг услуги | Weebix
+    </title>
 
-        {{-- Open Graph (Facebook / LinkedIn) --}}
-        <meta property="og:type" content="website">
-        <meta property="og:locale" content="bg_BG">
-        <meta property="og:url" content="{{ url()->current() }}">
-        <meta property="og:title" content="Уеб дизайн, SEO и дигитален маркетинг за вашия бизнес">
-        <meta property="og:description"
-            content="Изграждаме сайтове, които превръщат посетителите в клиенти. SEO, разработка, мобилни приложения и графичен дизайн – всичко на едно място.">
-        <meta property="og:image" content="{{ asset('images/og-cover.jpg') }}">
-        <meta property="og:image:width" content="1200">
-        <meta property="og:image:height" content="630">
-        <meta property="og:site_name" content="[Име на компанията]">
+    <meta name="description" content="Weebix предлага професионална уеб разработка, SEO оптимизация, дигитален маркетинг, графичен дизайн и AI видео обработка. Създаваме модерни решения за растежа на вашия бизнес.">
+    <meta name="keywords" content="Weebix, уеб разработка, уеб дизайн, SEO оптимизация, дигитален маркетинг, графичен дизайн, AI видеа, изработка на сайт, онлайн магазин, фирмен сайт, България">
+    <meta name="author" content="Weebix">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="{{ url()->current() }}">
 
-        {{-- Twitter / X --}}
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="Уеб дизайн, SEO и дигитален маркетинг за вашия бизнес">
-        <meta name="twitter:description"
-            content="Модерни уебсайтове, SEO оптимизация и дигитален маркетинг, които носят реални резултати.">
-        <meta name="twitter:image" content="{{ asset('images/og-cover.jpg') }}">
-    @endsection
+    {{-- Open Graph --}}
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="bg_BG">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:title" content="Уеб разработка, SEO и дигитален маркетинг услуги | Weebix">
+    <meta property="og:description"
+          content="Изграждаме модерни уебсайтове, SEO стратегии и дигитални решения, които помагат на бизнеса ви да расте онлайн.">
+    <meta property="og:site_name" content="Weebix">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    {{-- Twitter / X --}}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title"content="Уеб разработка, SEO и дигитален маркетинг услуги | Weebix">
+    <meta name="twitter:description" content="Професионална уеб разработка, SEO оптимизация, графичен дизайн и дигитален маркетинг за модерния бизнес.">
+
+@endsection
 
     <!-- Our Services Section Start -->
     <div class="our-services">

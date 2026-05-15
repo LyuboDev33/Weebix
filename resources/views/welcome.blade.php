@@ -4,10 +4,10 @@
         <title>Уеб дизайн, SEO и дигитален маркетинг за вашия бизнес | Weebix</title>
 
         <meta name="description"
-            content="Изграждаме модерни уебсайтове, оптимизираме за Google и развиваме онлайн присъствието на бизнеса ви. 100+ доволни партньори. Получете безплатна консултация днес.">
+            content="Изграждаме модерни уебсайтове, оптимизираме за Google и развиваме онлайн присъствието на бизнеса ви. Получете безплатна консултация днес.">
         <meta name="keywords"
             content="уеб дизайн, изработка на сайт, SEO оптимизация, дигитален маркетинг, разработка на уебсайт, мобилни приложения, онлайн магазин, България">
-        <meta name="author" content="[Име на компанията]">
+        <meta name="author" content="Weebix">
         <meta name="robots" content="index, follow">
         <link rel="canonical" href="{{ url()->current() }}">
 
@@ -18,7 +18,6 @@
         <meta property="og:title" content="Уеб дизайн, SEO и дигитален маркетинг за вашия бизнес">
         <meta property="og:description"
             content="Изграждаме сайтове, които превръщат посетителите в клиенти. SEO, разработка, мобилни приложения и графичен дизайн – всичко на едно място.">
-        <meta property="og:image" content="{{ asset('images/og-cover.jpg') }}">
         <meta property="og:image:width" content="1200">
         <meta property="og:image:height" content="630">
         <meta property="og:site_name" content="Weebix">
@@ -28,7 +27,6 @@
         <meta name="twitter:title" content="Уеб дизайн, SEO и дигитален маркетинг за вашия бизнес">
         <meta name="twitter:description"
             content="Модерни уебсайтове, SEO оптимизация и дигитален маркетинг, които носят реални резултати.">
-        <meta name="twitter:image" content="{{ asset('images/og-cover.jpg') }}">
     @endsection
 
 

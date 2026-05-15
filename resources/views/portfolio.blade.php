@@ -1,36 +1,32 @@
 <x-layouts.front-end>
 
     @section('SEO')
-        <title>Уеб дизайн, SEO и дигитален маркетинг за вашия бизнес | [Име на компанията]</title>
+        <title>
+            Weebix - Портфолио | Изработка на уебсайтове, SEO и дигитални решения
+        </title>
 
         <meta name="description"
-            content="Изграждаме модерни уебсайтове, оптимизираме за Google и развиваме онлайн присъствието на бизнеса ви. 100+ доволни партньори. Получете безплатна консултация днес.">
+            content="Разгледайте нашето портфолио от успешно реализирани уебсайтове, онлайн магазини, SEO проекти и дигитални решения за бизнеси в България и Европа.">
         <meta name="keywords"
-            content="уеб дизайн, изработка на сайт, SEO оптимизация, дигитален маркетинг, разработка на уебсайт, мобилни приложения, онлайн магазин, България">
-        <meta name="author" content="[Име на компанията]">
+            content="портфолио, уеб дизайн, изработка на сайт, SEO оптимизация, онлайн магазин, Laravel, бизнес уебсайт, дигитална агенция, UI UX дизайн">
+        <meta name="author" content="Weebix">
         <meta name="robots" content="index, follow">
         <link rel="canonical" href="{{ url()->current() }}">
 
-        {{-- Open Graph (Facebook / LinkedIn) --}}
+        {{-- Open Graph --}}
         <meta property="og:type" content="website">
         <meta property="og:locale" content="bg_BG">
         <meta property="og:url" content="{{ url()->current() }}">
-        <meta property="og:title" content="Уеб дизайн, SEO и дигитален маркетинг за вашия бизнес">
+        <meta property="og:title" content="Портфолио | Уебсайтове, SEO и дигитални проекти">
         <meta property="og:description"
-            content="Изграждаме сайтове, които превръщат посетителите в клиенти. SEO, разработка, мобилни приложения и графичен дизайн – всичко на едно място.">
-        <meta property="og:image" content="{{ asset('images/og-cover.jpg') }}">
-        <meta property="og:image:width" content="1200">
-        <meta property="og:image:height" content="630">
-        <meta property="og:site_name" content="[Име на компанията]">
-
+            content="Вижте част от нашите реализирани проекти – модерни уебсайтове, онлайн магазини, SEO оптимизация и корпоративни решения за различни бизнеси.">
+        <meta property="og:site_name" content="Weebix">
         {{-- Twitter / X --}}
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="Уеб дизайн, SEO и дигитален маркетинг за вашия бизнес">
+        <meta name="twitter:title" content="Портфолио | Уеб дизайн и дигитални решения">
         <meta name="twitter:description"
-            content="Модерни уебсайтове, SEO оптимизация и дигитален маркетинг, които носят реални резултати.">
-        <meta name="twitter:image" content="{{ asset('images/og-cover.jpg') }}">
+            content="Портфолио с уебсайтове, онлайн магазини и SEO проекти, създадени с внимание към дизайна, бързината и реалните резултати.">
     @endsection
-
 
 
     <!-- Our Work Section Start -->
@@ -401,7 +397,7 @@
         </div>
     </section>
 
-        <section class="our-work">
+    <section class="our-work">
         <div class="container">
 
             <div class="section-title">

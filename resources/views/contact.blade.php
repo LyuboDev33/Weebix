@@ -1,39 +1,32 @@
 <x-layouts.front-end>
 
-    @section('SEO')
-        <title>За нас | Weebix - Изработка на уебсайтове, онлайн магазини и дигитални решения</title>
+   @section('SEO')
 
-        <meta name="description"
-            content="Weebix разработва модерни фирмени сайтове, онлайн магазини и индивидуални уеб решения с фокус върху дизайн, функционалност и реални бизнес резултати.">
+    <title>
+        Контакти | Weebix - Безплатна консултация за уебсайт и дигитални услуги
+    </title>
 
-        <meta name="keywords"
-            content="Weebix, изработка на сайт, фирмен сайт, онлайн магазин, уеб дизайн, SEO оптимизация, дигитална агенция, Laravel, WordPress, България">
+    <meta name="description" content="Свържете се с Weebix за изработка на уебсайт, онлайн магазин, SEO оптимизация или дигитален маркетинг. Запазете безплатна консултация и обсъдете вашия проект с нас.">
+    <meta name="keywords" content="контакти Weebix, безплатна консултация, уеб разработка, изработка на сайт, SEO услуги, дигитален маркетинг, онлайн магазин, уеб агенция България">
 
-        <meta name="author" content="Weebix">
-        <meta name="robots" content="index, follow">
-        <link rel="canonical" href="{{ url()->current() }}">
+    <meta name="author" content="Weebix">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="{{ url()->current() }}">
 
-        {{-- Open Graph --}}
-        <meta property="og:type" content="website">
-        <meta property="og:locale" content="bg_BG">
-        <meta property="og:url" content="{{ url()->current() }}">
-        <meta property="og:title" content="Weebix - Изработка на уебсайтове, онлайн магазини и дигитални решения">
+    {{-- Open Graph --}}
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="bg_BG">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:title" content="Контакти | Weebix - Безплатна консултация за вашия проект">
+    <meta property="og:description" content="Имате идея за уебсайт, онлайн магазин или custom система? Свържете се с Weebix и нека обсъдим най-доброто решение за вашия бизнес.">
+    <meta property="og:site_name" content="Weebix">
 
-        <meta property="og:description"
-            content="Създаваме модерни уеб решения, които комбинират страхотен дизайн, добра структура и функционалност с реални резултати за бизнеса.">
+    {{-- Twitter / X --}}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Контакти | Weebix">
+    <meta name="twitter:description" content="Запазете безплатна консултация с Weebix и обсъдете вашия уеб проект, SEO стратегия или дигитално присъствие.">
 
-        <meta property="og:image" content="{{ asset('images/og-cover.jpg') }}">
-        <meta property="og:site_name" content="Weebix">
-
-        {{-- Twitter --}}
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="Weebix - Изработка на уебсайтове и онлайн магазини">
-
-        <meta name="twitter:description"
-            content="Модерни фирмени сайтове, онлайн магазини и дигитални решения за бизнеси, които искат професионално онлайн присъствие.">
-
-        <meta name="twitter:image" content="{{ asset('images/og-cover.jpg') }}">
-    @endsection
+@endsection
 
 
     <!-- Contact Us Section Start -->

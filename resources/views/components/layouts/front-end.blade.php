@@ -5,9 +5,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="author" content="Awaiken">
+
+    <meta name="google-site-verification" content="Q5aRku2wsSz-AepvwPrdh69Cg_tcA7Hzafa2dgIl0lc" />
+
+    <meta name="twitter:image" content="{{ asset('images/seo.png') }}">
+    <meta property="og:image" content="{{ asset('images/seo.png') }}">
+
 
     <!-- Favicon Icon -->
     <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png?v=<?php echo time(); ?>">
@@ -48,6 +51,19 @@
         requestAnimationFrame(raf);
     </script>
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HEZF5VYBVR"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-HEZF5VYBVR');
+    </script>
+
 
     @yield('SEO')
 
@@ -81,7 +97,6 @@
 
             <div class="d-flex gap-4 justify-content-center mt-30">
                 <button id="acceptBtn">Добре, разбрах</button>
-                <button id="declineBtn">Отхвърли</button>
             </div>
         </div>
     </div>
