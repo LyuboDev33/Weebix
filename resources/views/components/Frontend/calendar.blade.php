@@ -47,11 +47,11 @@
     });
 </script>
 <!-- Cal element-click embed code ends -->
-<a
-data-cal-link="lyubomir-stoyanov-jzm3o7/izrabotka-website"
-data-cal-namespace="izrabotka-website"
-data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'
-class="btn-default cursor-pointer d-block w-fit m-0-auto">
+<a data-cal-link="lyubomir-stoyanov-jzm3o7/izrabotka-website"
+    data-cal-namespace="izrabotka-website"
+    data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'
+    class="btn-default cursor-pointer d-block w-fit m-0-auto"
+    onclick="fbq('track', 'Lead');">
 
     Запази Безплатна консултация
     <i class="fa-solid fa-calendar-days"></i>
