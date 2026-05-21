@@ -175,7 +175,10 @@
                                 <a href="/service/design"><img src="/images/arrow.svg" alt="Виж повече"></a>
                             </div>
                             <p>
-                                test
+
+
+
+
                             </p>
                         </div>
                         <div class="service-image">
