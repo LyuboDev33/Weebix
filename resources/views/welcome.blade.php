@@ -172,7 +172,7 @@
                         <div class="service-content">
                             <div class="service-content-title">
                                 <h2>Графичен дизайн</h2>
-                                <a href="/services/graphic-design"><img src="/images/arrow.svg" alt="Виж повече"></a>
+                                <a href="/service/design"><img src="/images/arrow.svg" alt="Виж повече"></a>
                             </div>
                             <p>
                                 Ще изберем подходяща цветова гама и ще създадем уникален визуален стил,
@@ -194,7 +194,7 @@
                         <div class="service-content">
                             <div class="service-content-title">
                                 <h2>Уеб разработка</h2>
-                                <a href="/services/web-development"><img src="/images/arrow.svg" alt="Виж повече"></a>
+                                <a href="/service/web-development"><img src="/images/arrow.svg" alt="Виж повече"></a>
                             </div>
                             <p>Ще изберем най-подходящите технологии спрямо изискванията и ще създадем лесен за
                                 управление уебсайт, който лесно се надгражда. </p>
@@ -214,7 +214,7 @@
                         <div class="service-content">
                             <div class="service-content-title">
                                 <h2>Дигитален маркетинг</h2>
-                                <a href="#"><img src="/images/arrow.svg" alt="Виж повече"></a>
+                                <a href="/service/digital-marketing"><img src="/images/arrow.svg" alt="Виж повече"></a>
                             </div>
                             <p>
                                 SEO, Google Ads и кампании в социалните мрежи, които привличат точните клиенти и носят

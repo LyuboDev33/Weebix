@@ -274,7 +274,7 @@
 
 
     <!-- Support Section Start -->
-    <section class="support-section dark-section bg-white p-5">
+    <section class="support-section dark-section bg-white p-3">
         <div class="container">
 
             <div class="row">
