@@ -28,7 +28,7 @@
                                     <li><a href="/about">За нас</a></li>
                                     <li><a href="/services">Услуги</a></li>
                                     <li><a href="/contact">Контакти</a></li>
-                                    <li> <a href="#">
+                                    <li> <a target="_blank" href="https://www.facebook.com/profile.php?id=61589611974432">
                                             <i class="fa-brands fa-facebook-f"></i>
                                         </a></li>
                                 </ul>
@@ -39,12 +39,35 @@
                         <div class="col-lg-2 col-md-4">
                             <div class="footer-links">
                                 <h2>Услуги</h2>
-                                <ul>
-                                    <li><a href="#">Уеб разработка</a></li>
-                                    <li><a href="#">Дигитален маркетинг</a></li>
-                                    <li><a href="#">Онлайн магазини</a></li>
-                                    <li><a href="#">AI Видеа и обработка</a></li>
-                                </ul>
+                               <ul>
+    <li class="nav-item d-md-none">
+        <a class="nav-link" href="/services">Всички услуги</a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" href="/service/web-development">
+            Изработка на уебсайт
+        </a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" href="/service/digital-marketing">
+            Дигитален маркетинг
+        </a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" href="/service/design">
+            Графичен дизайн
+        </a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" href="/service/videos">
+            AI Видеа и Обработка
+        </a>
+    </li>
+</ul>
                             </div>
                         </div>
 

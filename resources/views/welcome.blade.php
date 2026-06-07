@@ -167,9 +167,8 @@
             <div class="row">
 
                 <div class="col-lg-4 col-md-6">
-                    <h3>test</h3>
                     <!-- Service Item Start -->
-                    {{-- <div class="service-item wow fadeInUp" data-wow-delay="0.25s">
+                    <div class="service-item wow fadeInUp" data-wow-delay="0.25s">
                         <div class="service-content">
                             <div class="service-content-title">
                                 <h2>Графичен дизайн</h2>
@@ -185,7 +184,7 @@
                                 <img src="/images/service-img-6.jpg" alt="Графичен дизайн">
                             </figure>
                         </div>
-                    </div> --}}
+                    </div>
                     <!-- Service Item End -->
                 </div>
 

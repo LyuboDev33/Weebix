@@ -146,9 +146,7 @@
             </div>
 
 
-            <a href="#" class="btn-default m-0-auto w-fit d-block wow fadeInUp" data-wow-delay="0.5s">
-                запази безплатна консултация
-            </a>
+            @include('components.Frontend.calendar')
 
         </div>
     </div>
